@@ -28,6 +28,47 @@ need to load. You'll see here a lot of <link>s to CSS files for styles and
   .center{text-align:center;}
   ul { display: table; margin: 0 auto;}
   ol { display: table; margin: 0 auto;}
+menu {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: gray;
+    border: 2px solid #4CAF50;
+}
+  
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
+
 </style>
 <body class="center">
   <section class=”about-me”>
@@ -38,6 +79,46 @@ need to load. You'll see here a lot of <link>s to CSS files for styles and
       <li><p style="text-align:left"> matthewvinuya@gmail.com</p></li>
     </ul>
   </section>
+  <div class="menu">
+    <div class="keys">
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">clap</span>
+    </div>
+    <div data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound">hihat</span>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+      <span class="sound">openhat</span>
+    </div>
+    <div data-key="71" class="key">
+      <kbd>G</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div data-key="72" class="key">
+      <kbd>H</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div data-key="74" class="key">
+      <kbd>J</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div data-key="75" class="key">
+      <kbd>K</kbd>
+      <span class="sound">tom</span>
+    </div>
+    <div data-key="76" class="key">
+      <kbd>L</kbd>
+      <span class="sound">tink</span>
+    </div>
+  </div>
+  </div>
   <section class=”my-skills”>
        <h2> My Skills</h2>
     <h3> Oral Communication </h3><ol>
@@ -62,7 +143,7 @@ need to load. You'll see here a lot of <link>s to CSS files for styles and
     <p> I completed Junior High School with satisfactory ratings, together with <br>
       the following awards:<ol>
     <li><p style="text-align:left">Certicate of Recognition for Public Service</p> </li>
-    <li> <p style="text-align:left">Academic Award for C-honor roll </p></li> </ol>
+    <li> <p style="text-align:left">Academic Award for with Honors </p></li> </ol>
   
   </section>
 </body>
