@@ -20,6 +20,7 @@ need to load. You'll see here a lot of <link>s to CSS files for styles and
   <meta name="viewport" content="width=device-width">
 
 </head>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
 <style>
   .name {color: black;
   size: 10;
@@ -31,17 +32,54 @@ need to load. You'll see here a lot of <link>s to CSS files for styles and
 .menu {
     position: sticky;
     top: 0;
-    background-color: gray;
-    border: 2px solid #4CAF50;
+    background-color: #eee0a7;
+    
+	font-family: Impact;
+	height: 10%;
+
 }
-  
+.menustyle {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+	
+}
+.list{
+	float: left;
+	border-right: 1px solid #f4ffee;
+	}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #b7362a;
+    color: white;
+}
+
+li a:active {
+     background-color: #b7362a;
+    color: white;
+}
 
 </style>
 <body class="center">
-  <section class=”about-me”>
       <div class="menu">
-    <a href="#skills"> <button> SKILLS </button> </a>
+	  <ul class="menustyle">
+	<li class="list"><a href="#home"> HOME</a></li>
+    <li class="list"><a href="#skills">SKILLS</a> </li>
+	<li class="list"><a href="#education">EDUCATION</a> </li>
+
+  </ul>
   </div>
+
+  <p id="home"></p>
+  <br><br>
+  <section class=”about-me”>
+
     <div>
        <h1 class= "name"> John Matthew M. Vinuya </h1>
     <ul>
@@ -55,7 +93,7 @@ need to load. You'll see here a lot of <link>s to CSS files for styles and
   <br><br><br><br>
   <br><br><br><br>
   <br><br><br><br>
-  
+  <br><br><br><br>  
   <p id="skills"></p>
   <br><br>
   <section class=”my-skills” >
@@ -72,6 +110,12 @@ need to load. You'll see here a lot of <link>s to CSS files for styles and
     <li><p style="text-align:left"> Basic Understanding of HTML, Javascript, and CSS</p> </li>
     
   </section>
+    <br><br><br><br>
+  <br><br><br><br>
+  <br><br><br><br>
+  <br><br><br><br>
+    <p id="education"></p>
+  <br><br>
   <section class=”my-education”>
        <h2>Education</h2>
     <b style= "size: 7;"> HOLY INFANT SCHOOL </b>
@@ -85,6 +129,11 @@ need to load. You'll see here a lot of <link>s to CSS files for styles and
     <li> <p style="text-align:left">Academic Award for with Honors </p></li> </ol>
   
   </section>
+      <br><br><br><br>
+  <br><br><br><br>
+  <br><br><br><br>
+  <br><br><br><br>
+  <p></p>
 </body>
 
 </html>
