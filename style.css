@@ -1,0 +1,57 @@
+	<style>
+	 .name {
+	 color: black;
+	 size: 10;
+	 font-family: Calibri;
+	 }
+	 .address{
+	 size:4;
+	 }
+	 .body{
+	 text-align:center;
+	 background-color: silver;
+	 }
+	 
+	 ul { display: table; margin: 0 auto;}
+	 ol { display: table; margin: 0 auto;}
+	.menu {
+	 position: sticky;
+	 top: 0;
+	 background-color: #eee0a7;
+	 
+		font-family: Impact;
+		height: 10%;
+	
+	}
+	.menustyle {
+	 list-style-type: none;
+	 margin: 0;
+	 padding: 0;
+	 width: 300px;
+		
+	}
+	.list{
+		float: left;
+		border-right: 1px solid #f4ffee;
+		}
+	li a {
+	 display: block;
+	 color: #000;
+	 padding: 8px 16px;
+	 text-decoration: none;
+	}
+	li a:hover {
+	 background-color: #b7362a;
+	 color: white;
+	}
+	
+	li a:active {
+	 background-color: #b7362a;
+	 color: white;
+	}
+	.picture{
+	height: 150px; 
+	width: 100px;
+	border-radius: 250px;
+	}
+	</style>
