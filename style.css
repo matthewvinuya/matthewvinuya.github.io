@@ -2,14 +2,14 @@
 	 .name {
 	 color: black;
 	 size: 10;
-	 font-family: Verdana;
+	 font-family:Palatino;
 	 }
 	 .address{
 	 size:4;
 	 }
 	 .body{
 	 text-align:center;
-	 background-color: black;
+	 background-color: silver;
 	 }
 	 
 	 ul { display: table; margin: 0 auto;}
