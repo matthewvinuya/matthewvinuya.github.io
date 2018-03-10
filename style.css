@@ -20,7 +20,7 @@
 	 background-color: #eee0a7;
 	 
 		font-family: Impact;
-		height: 10%;
+		width: 99%;
 	
 	}
 	.menustyle {
@@ -33,6 +33,7 @@
 	.list{
 		float: left;
 		border-right: 1px solid #f4ffee;
+		
 		}
 	li a {
 	 display: block;
@@ -45,13 +46,14 @@
 	 color: white;
 	}
 	
-	li a:active {
+	.link_active {
 	 background-color: #b7362a;
 	 color: white;
+	 
 	}
 	.picture{
-	height: 150px; 
-	width: 100px;
-	border-radius: 250px;
+	height: 180px; 
+	width: 180px;
+	border-radius: 275px;
 	}
 	</style>
