@@ -2,11 +2,11 @@
 	 .name {
 	 color: black;
 	 size: 20;
-	 font-family: Arial;
+	 font-family: Trebuchet;
 	 }
 	 .bodytext{
 	 size:14;
-	font-family: Georgia;
+	font-family: Bookman;
 	 }
 	 .body{
 	 text-align:center;
@@ -22,6 +22,7 @@
 	 
 		font-family: Impact;
 		width: 99%;
+		size: 10;
 	
 	}
 	.menustyle {
@@ -33,14 +34,14 @@
 	}
 	.list{
 		float: left;
-		border-right: 1px solid #f4ffee;
+		border-right: 10px solid #f4ffee;
 		display: inline;
 		
 		}
 	li a {
 	 display: block;
 	 color: #000;
-	 padding: 18px 16px;
+	 padding: 8px 16px;
 	 text-decoration: none;
 	}
 	li a:hover {
