@@ -1,11 +1,12 @@
 	<style>
 	 .name {
 	 color: black;
-	 size: 10;
-	 font-family:Arial;
+	 size: 20;
+	 font-family: Arial;
 	 }
-	 .address{
-	 size:4;
+	 .bodytext{
+	 size:14;
+	font-family: Georgia;
 	 }
 	 .body{
 	 text-align:center;
@@ -39,7 +40,7 @@
 	li a {
 	 display: block;
 	 color: #000;
-	 padding: 8px 16px;
+	 padding: 18px 16px;
 	 text-decoration: none;
 	}
 	li a:hover {
@@ -53,8 +54,8 @@
 	 
 	}
 	.picture{
-	height: 180px; 
-	width: 180px;
+	height: 210px; 
+	width: 210px;
 	border-radius: 275px;
 	}
 	</style>
