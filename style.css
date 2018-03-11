@@ -2,7 +2,7 @@
 	 .name {
 	 color: black;
 	 size: 10;
-	 font-family:Palatino;
+	 font-family:Arial;
 	 }
 	 .address{
 	 size:4;
@@ -33,6 +33,7 @@
 	.list{
 		float: left;
 		border-right: 1px solid #f4ffee;
+		display: inline;
 		
 		}
 	li a {
