@@ -29,13 +29,13 @@
 	.menustyle {
 	 list-style-type: none;
 	 margin: 0;
-	 padding: 14px 30px;
+	 padding: 0;
 	 width: 100%;
 		
 	}
 	.list{
 		float: left;
-		border-right: 100px;
+		border-right: 1px solid #f4ffee;
 		display: inline;
 		padding: 14px 30px;
 		
@@ -43,7 +43,7 @@
 	li a {
 	 display: block;
 	 color: #000;
-	
+	padding: 8px 16px
 	 text-decoration: none;
 	}
 	li a:hover {
