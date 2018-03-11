@@ -23,7 +23,7 @@
 		font-family: Impact;
 		width: 100%;
 		height: 50px;
-		font-size: 15;
+		font-size: 25;
 	
 	}
 	.menustyle {
@@ -35,7 +35,7 @@
 	}
 	.list{
 		float: left;
-		border-right: 1px solid #f4ffee;
+		border-right: 20px;
 		display: inline;
 		
 		}
