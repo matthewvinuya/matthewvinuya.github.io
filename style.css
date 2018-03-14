@@ -7,6 +7,12 @@
 	 .bodytext{
 	 font-size: 20;
 	font-family: Bookman;
+	
+	 }
+	.bodytext2{
+	 font-size: 20;
+	font-family: Bookman;
+	text-align: left;
 	 }
 	 .body{
 	 text-align:center;
